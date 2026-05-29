@@ -1,2 +1,3 @@
 execute if score @s tp_shrines.tp_cooldown matches 30 run summon marker ~ ~ ~ {Tags:["tp_shrines.effect_marker_disabled"]}
+execute if score @s tp_shrines.tp_cooldown matches 30 run function tp_shrines:shrine/disable/disable_current
 execute if score @s tp_shrines.tp_cooldown matches 30 run scoreboard players set @n[type=marker,tag=tp_shrines.effect_marker_disabled,distance=..3] tp_shrines.tp_cooldown 40

@@ -8,3 +8,4 @@ scoreboard objectives add tp_shrines.slot_5 dummy
 scoreboard objectives add tp_shrines.temp dummy
 scoreboard objectives add tp_shrines.tp_cooldown dummy
 scoreboard objectives add tp_shrines.password dummy
+scoreboard objectives add tp_shrines.password_old dummy

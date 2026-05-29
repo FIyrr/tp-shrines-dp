@@ -29,12 +29,9 @@
                   "Tags": ["tp_shrines.place_shrine"],
                   "Invisible": true,
                   "Silent": true
-                }
+                },
+                "minecraft:item_model": "tp_shrines:tp_shrine"
               }
-            },
-            {
-              "function": "minecraft:set_custom_model_data",
-              "value": 819291
             }
           ]
         }

@@ -4,3 +4,4 @@ execute unless items block ~ ~ ~ container.12 barrier run function tp_shrines:sh
 execute unless items block ~ ~ ~ container.13 barrier run function tp_shrines:shrine/click/4
 execute unless items block ~ ~ ~ container.14 barrier run function tp_shrines:shrine/click/5
 execute unless items block ~ ~ ~ container.17 barrier run function tp_shrines:shrine/click/forbidden
+

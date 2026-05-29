@@ -1,0 +1,1 @@
+# $summon marker $(tp_location_x) $(tp_location_y) $(tp_location_z) {Tags:["tp_shrines.disable_display"]}

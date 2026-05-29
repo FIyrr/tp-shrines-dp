@@ -3,6 +3,7 @@ execute store result storage tp_shrines:storage old_password int 1 run scoreboar
 function tp_shrines:shrine/update_display_items/remove_old with storage tp_shrines:storage
 tag @s remove tp_shrines.location_1
 tag @s remove tp_shrines.location_2
+scoreboard players operation @s tp_shrines.password_old = @s tp_shrines.password
 $data merge storage tp_shrines:storage {temp_password:$(slot_1)$(slot_2)$(slot_3)$(slot_4)$(slot_5)}
 $scoreboard players set @s tp_shrines.password $(slot_1)$(slot_2)$(slot_3)$(slot_4)$(slot_5)
 $data modify storage tp_shrines:storage shrines[{password:$(slot_1)$(slot_2)$(slot_3)$(slot_4)$(slot_5)}].temp set value 1

@@ -1,4 +1,7 @@
 tp @s ~ ~ ~ ~15 0
+
+#execute at @s if score @s tp_shrines.tp_cooldown matches 40 run function tp_shrines:shrine/enable/enable_current
+
 execute positioned ^ ^ ^1 facing ~ ~1 ~ run particle soul_fire_flame ~ ~ ~ ^ ^ ^1000000 0.00000025 0
 execute positioned ^ ^ ^-1 facing ~ ~1 ~ run particle soul_fire_flame ~ ~ ~ ^ ^ ^1000000 0.00000025 0
 execute positioned ^ ^ ^1 positioned ~ ~1 ~ facing ~ ~1 ~ run particle soul_fire_flame ~ ~ ~ ^ ^ ^1000000 0.00000025 0

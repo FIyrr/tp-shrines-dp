@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=tp_shrines.shrine] at @s run setblock ~ ~ ~ air
