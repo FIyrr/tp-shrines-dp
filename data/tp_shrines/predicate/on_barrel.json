@@ -1,14 +1,15 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type_specific": {
-      "type": "minecraft:player"
-    },
-    "stepping_on": {
-      "block": {
-        "blocks": "minecraft:barrel"
-      }
+  "type": "minecraft:all_of",
+  "terms": {
+    "type": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "minecraft:stepping_on": {
+        "block": {
+          "blocks": "minecraft:barrel"
+        }
+      },
+      "minecraft:entity_type": "minecraft:player"
     }
   }
 }
