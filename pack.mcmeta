@@ -1,8 +1,10 @@
 {
     "pack":{
-        "pack_format": 48,
-        "description":[
-            {"text":"\"Teleportation Shrines\" datapack by Flyrr","color":"#de9cff"}
+    "pack_format": 121,
+    "min_format": 121,
+    "max_format": 122,
+    "description":[
+            {"text":"For the \"Teleportation Shrines\" datapack by Flyrr","color":"#de9cff"}
         ]
     }
 }
